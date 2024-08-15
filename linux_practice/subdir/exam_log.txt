@@ -1,0 +1,33 @@
+    1  mkdir linux_practice
+    2  ls
+    3  cd linux_practice
+    4  touch notes.txt
+    5  ls
+    6  cat notes.txt
+    7  nano notes.txt
+    8  head notes.txt
+    9  tail notes.txt
+   10  mkdir subdir
+   11  ls
+   12  mv notes.txt /subdir
+   13  mv notes.txt subdir
+   14  ls
+   15  cd subdir
+   16  ren subdir practice_subdir
+   17  rn subdir practice_subdir
+   18  rename subdir practice_subdir
+   19  ls
+   20  cp notes.txt linux_practice
+   21  date
+   22  uptime
+   23  ssh -ver
+   24  php -v
+   25  mysql -v
+   26  apache -v
+   27  apache2 -v
+   28  python -v
+   29  python3 -v
+   30  jdk -v
+   31  java -v
+   32  git checkout -bfinalexam
+   33  history > exam_log.txt
